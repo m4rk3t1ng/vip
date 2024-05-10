@@ -1,0 +1,13 @@
+
+
+.slick-dots button {
+  width: 5px;
+  padding: 0px
+}
+.slick-dots li {
+  width: 5px;
+}
+.slick-dots > li > button:before {
+  width: 0px;
+  height: 0px;
+}

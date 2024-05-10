@@ -1,0 +1,178 @@
+.experience-item-type {
+  margin: 40px 0 25px 0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+}
+.experience-item {
+  flex-grow: 1;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-background {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(185, 151, 92, 0.07);
+  padding: 43px 30px 56px 30px;
+  margin-bottom: 64px;
+  width: 100%;
+}
+
+.show-more {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.experience-item-title {
+  margin-top: 35px;
+  font-family: LibreBaskerville;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: -0.08px;
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.experience-item-description {
+  font-family: Roboto;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 12.5px;
+  text-align: center;
+}
+
+.show-more-button {
+  font-family: Roboto;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 2vw;
+  margin-bottom: 12.5px;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  text-decoration: underline;
+}
+
+.experience-item-find-out {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-align: center;
+
+  width: 277px;
+  height: 56px;
+  border: solid 3px #b9975c;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.experience-item-find-out > a {
+  color: #b9975c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.experience-item-find-out:hover {
+  border: solid 3px #b9975c;
+  background-color: #b9975c;
+}
+.experience-item-find-out:hover > a {
+  color: white;
+}
+
+/* ----- ----- */
+@media screen and (min-width: 1025px) {
+  .experience-item-type {
+    font-size: 24px;
+  }
+  .experience-item-description {
+    font-size: 16px;
+  }
+
+  .show-more-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .odd {
+    margin-left: 32px;
+  }
+
+  .even {
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    padding: 30px 30px 43px 30px;
+    flex: 100%;
+    margin-bottom: 24px;
+  }
+  .experience-item-title {
+    font-size: 24px;
+  }
+  .experience-item-description {
+    font-size: 18px;
+  }
+  
+  .show-more-button {
+    font-size: 18px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .experience-item-type {
+    font-size: 12px;
+    margin: 34px 0 16px 0;
+  }
+  .experience-item {
+    padding: 19px 19px 32px 19px;
+  }
+  .experience-item-title {
+    font-size: 18px;
+  }
+  .experience-item-description {
+    font-size: 12px;
+  }
+  .show-more-button {
+    font-size: 12px;
+  }
+  .experience-item-find-out {
+    font-size: 14px;
+    width: 60%;
+  }
+}
